@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E01BFF6C-11CD-49E8-9D9D-1E4B59286E55}|Exercice2_Conditions\\Exercice2_Conditions.csproj|c:\\repos\\dotnet2025\\myfirstnetapplication\\exercice2_conditions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01BFF6C-11CD-49E8-9D9D-1E4B59286E55}|Exercice2_Conditions\\Exercice2_Conditions.csproj|solutionrelative:exercice2_conditions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90BE4FF7-F042-4D1F-AE7E-D1FAD4702FC6}|MyFirstNetApplication\\MyFirstNetApplication.csproj|c:\\repos\\dotnet2025\\myfirstnetapplication\\myfirstnetapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90BE4FF7-F042-4D1F-AE7E-D1FAD4702FC6}|MyFirstNetApplication\\MyFirstNetApplication.csproj|solutionrelative:myfirstnetapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4B56D32-69BF-4E43-AF8E-C4FFD6BD78ED}|Exercice1_Dates\\Exercice1_Dates.csproj|c:\\repos\\dotnet2025\\myfirstnetapplication\\exercice1_dates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4B56D32-69BF-4E43-AF8E-C4FFD6BD78ED}|Exercice1_Dates\\Exercice1_Dates.csproj|solutionrelative:exercice1_dates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90BE4FF7-F042-4D1F-AE7E-D1FAD4702FC6}|MyFirstNetApplication\\MyFirstNetApplication.csproj|c:\\repos\\dotnet2025\\myfirstnetapplication\\myfirstnetapplication\\myfirstnetapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90BE4FF7-F042-4D1F-AE7E-D1FAD4702FC6}|MyFirstNetApplication\\MyFirstNetApplication.csproj|solutionrelative:myfirstnetapplication\\myfirstnetapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice2_Conditions\\Program.cs",
+              "RelativeDocumentMoniker": "Exercice2_Conditions\\Program.cs",
+              "ToolTip": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice2_Conditions\\Program.cs",
+              "RelativeToolTip": "Exercice2_Conditions\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:39:25.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyFirstNetApplication",
+              "DocumentMoniker": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\MyFirstNetApplication\\MyFirstNetApplication.csproj",
+              "RelativeDocumentMoniker": "MyFirstNetApplication\\MyFirstNetApplication.csproj",
+              "ToolTip": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\MyFirstNetApplication\\MyFirstNetApplication.csproj",
+              "RelativeToolTip": "MyFirstNetApplication\\MyFirstNetApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T10:47:11.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice1_Dates\\Program.cs",
+              "RelativeDocumentMoniker": "Exercice1_Dates\\Program.cs",
+              "ToolTip": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice1_Dates\\Program.cs",
+              "RelativeToolTip": "Exercice1_Dates\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T10:47:01.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\MyFirstNetApplication\\Program.cs",
+              "RelativeDocumentMoniker": "MyFirstNetApplication\\Program.cs",
+              "ToolTip": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\MyFirstNetApplication\\Program.cs",
+              "RelativeToolTip": "MyFirstNetApplication\\Program.cs",
+              "ViewState": "AgIAAEMBAAAAAAAAAAAAAG0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T07:50:32.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

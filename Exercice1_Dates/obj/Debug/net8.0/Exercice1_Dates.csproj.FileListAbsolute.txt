@@ -1,0 +1,14 @@
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\bin\Debug\net8.0\Exercice1_Dates.exe
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\bin\Debug\net8.0\Exercice1_Dates.deps.json
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\bin\Debug\net8.0\Exercice1_Dates.runtimeconfig.json
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\bin\Debug\net8.0\Exercice1_Dates.dll
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\bin\Debug\net8.0\Exercice1_Dates.pdb
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\obj\Debug\net8.0\Exercice1_Dates.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\obj\Debug\net8.0\Exercice1_Dates.AssemblyInfoInputs.cache
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\obj\Debug\net8.0\Exercice1_Dates.AssemblyInfo.cs
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\obj\Debug\net8.0\Exercice1_Dates.csproj.CoreCompileInputs.cache
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\obj\Debug\net8.0\Exercice1_Dates.dll
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\obj\Debug\net8.0\refint\Exercice1_Dates.dll
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\obj\Debug\net8.0\Exercice1_Dates.pdb
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\obj\Debug\net8.0\Exercice1_Dates.genruntimeconfig.cache
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice1_Dates\obj\Debug\net8.0\ref\Exercice1_Dates.dll
