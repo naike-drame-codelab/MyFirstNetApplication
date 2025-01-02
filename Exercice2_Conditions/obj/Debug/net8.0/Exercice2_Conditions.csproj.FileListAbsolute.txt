@@ -1,0 +1,15 @@
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\bin\Debug\net8.0\Exercice2_Conditions.exe
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\bin\Debug\net8.0\Exercice2_Conditions.deps.json
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\bin\Debug\net8.0\Exercice2_Conditions.runtimeconfig.json
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\bin\Debug\net8.0\Exercice2_Conditions.dll
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\bin\Debug\net8.0\Exercice2_Conditions.pdb
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\obj\Debug\net8.0\Exercice2_Conditions.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\obj\Debug\net8.0\Exercice2_Conditions.AssemblyInfoInputs.cache
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\obj\Debug\net8.0\Exercice2_Conditions.AssemblyInfo.cs
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\obj\Debug\net8.0\Exercice2_Conditions.csproj.CoreCompileInputs.cache
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\obj\Debug\net8.0\Exercice2_Conditions.sourcelink.json
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\obj\Debug\net8.0\Exercice2_Conditions.dll
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\obj\Debug\net8.0\refint\Exercice2_Conditions.dll
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\obj\Debug\net8.0\Exercice2_Conditions.pdb
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\obj\Debug\net8.0\Exercice2_Conditions.genruntimeconfig.cache
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice2_Conditions\obj\Debug\net8.0\ref\Exercice2_Conditions.dll

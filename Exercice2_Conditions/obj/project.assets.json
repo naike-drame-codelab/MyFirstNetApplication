@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice2_Conditions\\Exercice2_Conditions.csproj",
-      "projectName": "Exercice2_Conditions",
-      "projectPath": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice2_Conditions\\Exercice2_Conditions.csproj",
+      "projectUniqueName": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice2_Conditions\\Exercice2_AnneeBissextile.csproj",
+      "projectName": "Exercice2_AnneeBissextile",
+      "projectPath": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice2_Conditions\\Exercice2_AnneeBissextile.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice2_Conditions\\obj\\",
       "projectStyle": "PackageReference",

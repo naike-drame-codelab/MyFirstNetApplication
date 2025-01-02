@@ -1,0 +1,15 @@
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\bin\Debug\net8.0\Exercice3_RegistreNational.exe
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\bin\Debug\net8.0\Exercice3_RegistreNational.deps.json
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\bin\Debug\net8.0\Exercice3_RegistreNational.runtimeconfig.json
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\bin\Debug\net8.0\Exercice3_RegistreNational.dll
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\bin\Debug\net8.0\Exercice3_RegistreNational.pdb
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\obj\Debug\net8.0\Exercice3_RegistreNational.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\obj\Debug\net8.0\Exercice3_RegistreNational.AssemblyInfoInputs.cache
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\obj\Debug\net8.0\Exercice3_RegistreNational.AssemblyInfo.cs
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\obj\Debug\net8.0\Exercice3_RegistreNational.csproj.CoreCompileInputs.cache
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\obj\Debug\net8.0\Exercice3_RegistreNational.sourcelink.json
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\obj\Debug\net8.0\Exercice3_RegistreNational.dll
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\obj\Debug\net8.0\refint\Exercice3_RegistreNational.dll
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\obj\Debug\net8.0\Exercice3_RegistreNational.pdb
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\obj\Debug\net8.0\Exercice3_RegistreNational.genruntimeconfig.cache
+C:\repos\DotNet2025\MyFirstNetApplication\Exercice3_RegistreNational\obj\Debug\net8.0\ref\Exercice3_RegistreNational.dll

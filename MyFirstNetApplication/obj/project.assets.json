@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\MyFirstNetApplication\\MyFirstNetApplication.csproj",
-      "projectName": "MyFirstNetApplication",
-      "projectPath": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\MyFirstNetApplication\\MyFirstNetApplication.csproj",
+      "projectUniqueName": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\MyFirstNetApplication\\Demos.csproj",
+      "projectName": "Demos",
+      "projectPath": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\MyFirstNetApplication\\Demos.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\MyFirstNetApplication\\obj\\",
       "projectStyle": "PackageReference",
