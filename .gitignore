@@ -1,1 +1,52 @@
+# Fichiers générés par Visual Studio
 .vs/
+*.user
+*.suo
+*.cache
+*.log
+*.pdb
+*.obj
+*.exe
+*.dll
+*.tlb
+*.tlh
+*.bak
+*.swp
+
+# Répertoire de sortie
+bin/
+obj/
+Debug/
+Release/
+
+# Fichiers de configuration spécifiques à Visual Studio
+*.vcxproj.user
+*.csproj.user
+*.rsuser
+*.DotSettings.user
+
+# Fichiers générés par les outils de build
+*.msbuild*
+*.Build.Caches/
+
+# Dépendances locales et temporaires
+packages/
+*.nupkg
+*.lock.json
+project.lock.json
+.nuget/
+
+# Fichiers de gestion des tests
+TestResults/
+*.trx
+*.coverage
+
+# Fichiers générés par les outils de code
+*.g.*
+*.designer.*
+
+# Configurations de l'éditeur
+.idea/
+.vscode/
+_ReSharper.*
+
