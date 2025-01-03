@@ -3,20 +3,18 @@ bool isConverted;
 int number;
 do
 {
-    Console.WriteLine("Veuillez introduire un nombre entier :");
+    Console.Write("Veuillez introduire un nombre entier : ");
     string input = Console.ReadLine();
     isConverted = int.TryParse(input, out number);
 } while (!isConverted);
 
-long result = 1;
-int i = 0;
-while (i < number)
+long value = 1;
+for (int i = 2; i <= number; i++)
 {
     checked
     {
-        result *= (number - i); //6 * 5 * 4 * 3 * 2 * 1
+        value *= i; //6 * 5 * 4 * 3 * 2 * 1
     }
-    i++;
 }
 
-Console.WriteLine($"Le factoriel de {number} est {result}");
+Console.WriteLine($"Le factoriel de {number} est {value}.");
