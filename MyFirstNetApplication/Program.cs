@@ -218,6 +218,8 @@ Console.WriteLine("Bienvenue " + input + " ! ♥");
 
 //// transtypage (cast) explicite
 //int nb4 = (int)nb3;
+//// Equivalent CTS 
+//Int32 nbInt32 = 42;
 
 
 //string s = "42";
@@ -326,43 +328,107 @@ Console.WriteLine("Bienvenue " + input + " ! ♥");
 
 
 #region Structures conditionnelles
-Console.WriteLine("Test");
-int age = 24;
-Console.OutputEncoding = Encoding.UTF8;
+//Console.WriteLine("Test");
+//int age = 24;
+//Console.OutputEncoding = Encoding.UTF8;
 
-// if : on teste des conditions
-if (age >= 18)
-{
-    // instructions
-    Console.WriteLine("🙈🙈🙈");
-}
-else if(age >= 12) {
-    Console.WriteLine("🐼🐼🐼");
-}
-else
-{
-    // autres instructions
-    Console.WriteLine("🦄🦄🦄");
-}
+//// if : on teste des conditions
+//if (age >= 18)
+//{
+//    // instructions
+//    Console.WriteLine("🙈🙈🙈");
+//}
+//else if(age >= 12) {
+//    Console.WriteLine("🐼🐼🐼");
+//}
+//else
+//{
+//    // autres instructions
+//    Console.WriteLine("🦄🦄🦄");
+//}
 
-string temps = "Soleil";
-// switch : on teste généralement des égalités, pour tester dans un switch des conditions on utilise when
-// case "Soleil" when temps.Length > 5:
-switch (temps)
-{
-    case "Soleil":
-    case "Sunny":
-        //instructions
-        Console.WriteLine("🌞");
-        break;
-    case "Nuage":
-    case "Cloudy":
-        Console.WriteLine("☁☁☁");
-        break;
-    default:
-        Console.WriteLine("🌈🌈🌈");
-        break;
-}
+//string temps = "Soleil";
+//// switch : on teste généralement des égalités, pour tester dans un switch des conditions on utilise when
+//// case "Soleil" when temps.Length > 5:
+//switch (temps)
+//{
+//    case "Soleil":
+//    case "Sunny":
+//        //instructions
+//        Console.WriteLine("🌞");
+//        break;
+//    case "Nuage":
+//    case "Cloudy":
+//        Console.WriteLine("☁☁☁");
+//        break;
+//    default:
+//        Console.WriteLine("🌈🌈🌈");
+//        break;
+//}
+
+
+#endregion
+
+
+#region Boucles
+// for (itérateur; condition d'arrêt de la boucle; évolution de l'itérateur à chaque boucle)
+// quand on sait le nb de fois que l'on veut itérer
+//for (int i = 0; i < 10; i++)
+//{
+//    Console.WriteLine(i);
+//    Console.WriteLine("Hello");
+//}
+
+//// multiple itérateur
+//for (int i = 0, j = 25; i < 10 || j > 5; i++, j -= 2)
+//{
+//    Console.WriteLine(i);
+//    Console.WriteLine(j);
+//    Console.WriteLine("_______");
+//}
+
+// while
+// quand on ne sait pas le nb de fois que l'on veut itérer
+//bool condition = true;
+//while (condition)
+//{
+//    Console.WriteLine("Entrez un nombre : ");
+//    int nb = int.Parse(Console.ReadLine());
+//    if (nb > 5)
+//    {
+//        condition = false;
+//    }
+//}
+
+//int nb = 0;
+////while (nb <= 5)
+////{
+////    Console.WriteLine("Entrez un nombre : ");
+////    nb = int.Parse(Console.ReadLine());
+////}
+
+//// do while
+//// pour être certain que les instructions soient exécutées au moins une fois
+//do
+//{
+//    Console.WriteLine("Entrez un nombre : ");
+//    nb = int.Parse(Console.ReadLine());
+//} while (nb <= 5);
+
+//// foreach
+//int[] tab = [42, 73, 12, 53, 4, 15, 66, 87];
+//foreach (int value in tab)
+//{
+//    Console.WriteLine(value);
+//}
+
+//// le foreach équivaut à un while caché :
+//var enumerator = tab.GetEnumerator();
+//while (enumerator.MoveNext())
+//{
+//    Console.WriteLine(enumerator.Current);
+//}
+//enumerator.Reset();
 
 
 #endregion

@@ -8,6 +8,7 @@
 // 1700 pas bissextile
 
 
+#region Réponse
 Console.WriteLine("Veuillez indiquer une année :");
 string input = Console.ReadLine();
 
@@ -27,4 +28,8 @@ else
     Console.WriteLine($"La valeur \"{input}\" n'est pas une année valide.");
 }
 
+#endregion
 
+#region Correction
+
+#endregion
