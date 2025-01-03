@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exercice2_AnneeBissextile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6524d6d7c3d2ea6d44136eaef733bcf24212ae56")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34662b6db30ddf8b25f4da7e38c8be1183f52861")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exercice2_AnneeBissextile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exercice2_AnneeBissextile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice8_DoublesApproximat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice9-b_RacineCarrée", "Exercice9-b_RacineCarrée\Exercice9-b_RacineCarrée.csproj", "{461A5E85-6CB1-4575-9BD2-90C13AE6EFD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice10_Tableaux_RecherchePackage", "Exercice10_Tableaux_RecherchePackage\Exercice10_Tableaux_RecherchePackage.csproj", "{C2CFA78A-4EBD-4B3A-A554-0BFE71444330}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{461A5E85-6CB1-4575-9BD2-90C13AE6EFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{461A5E85-6CB1-4575-9BD2-90C13AE6EFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{461A5E85-6CB1-4575-9BD2-90C13AE6EFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CFA78A-4EBD-4B3A-A554-0BFE71444330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CFA78A-4EBD-4B3A-A554-0BFE71444330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CFA78A-4EBD-4B3A-A554-0BFE71444330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CFA78A-4EBD-4B3A-A554-0BFE71444330}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
