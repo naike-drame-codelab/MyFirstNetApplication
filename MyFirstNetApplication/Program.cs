@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Collections;
 using System.Text;
 
 #region Console.WriteLine(), Console.ReadLine()
@@ -436,93 +437,232 @@ Console.WriteLine("Bienvenue " + input + " ! ♥");
 
 
 #region Tableaux
-// type de valeur[]
-// derrière les [] se cache la class Array --> type référence (struct en C# : type valeur)
+//// type de valeur[]
+//// derrière les [] se cache la class Array --> type référence (struct en C# : type valeur)
 
-//créer un tableau contenant 4 entiers
-// par défaut [0,0,0,0]
-int[] tableau = new int[4];
-Console.WriteLine();
+////créer un tableau contenant 4 entiers
+//// par défaut [0,0,0,0]
+//int[] tableau = new int[4];
+//Console.WriteLine();
 
-string[] tableauDeString = new string[4];
-// par défaut [null,null,null,null]
+//string[] tableauDeString = new string[4];
+//// par défaut [null,null,null,null]
 
-// initialisation d'un tableau avec plusieurs valeurs
-string[] noms = [ "Khun", "Mike", "Thierry" ];
-string[] autresNoms = { "Khun", "Mike", "Thierry" };
+//// initialisation d'un tableau avec plusieurs valeurs
+//string[] noms = [ "Khun", "Mike", "Thierry" ];
+//string[] autresNoms = { "Khun", "Mike", "Thierry" };
 
-// comparer 2 tableaux
-Console.WriteLine(noms == autresNoms); // false car tableau = type référence, == : compare les adresses mémoires
-Console.WriteLine(noms.SequenceEqual(autresNoms)); // true, SequenceEqual() : compare les valeurs des 2 tableaux
+//// comparer 2 tableaux
+//Console.WriteLine(noms == autresNoms); // false car tableau = type référence, == : compare les adresses mémoires
+//Console.WriteLine(noms.SequenceEqual(autresNoms)); // true, SequenceEqual() : compare les valeurs des 2 tableaux
 
-// récupérer un élément du tableau
-Console.WriteLine(noms[2]); ; // Thierry
+//// récupérer un élément du tableau
+//Console.WriteLine(noms[2]); ; // Thierry
 
-// modifier un élément du tableau
-Console.WriteLine(noms[2] = "Simon");
-Console.WriteLine(noms[2]); // Simon
+//// modifier un élément du tableau
+//Console.WriteLine(noms[2] = "Simon");
+//Console.WriteLine(noms[2]); // Simon
 
-// slice
-string[] nomsDeMesCollegues = autresNoms[^2..]; // récupère un tableau contenant Mike et Thierry/ les 2 derniers éléments
+//// slice
+//string[] nomsDeMesCollegues = autresNoms[^2..]; // récupère un tableau contenant Mike et Thierry/ les 2 derniers éléments
 
-// longueur d'un tableau
-int l = nomsDeMesCollegues.Length;
-int l2 = nomsDeMesCollegues.Count(); // récupère la taille de n'importe quelle collection mais plus lent
+//// longueur d'un tableau
+//int l = nomsDeMesCollegues.Length;
+//int l2 = nomsDeMesCollegues.Count(); // récupère la taille de n'importe quelle collection mais plus lent
 
-// attention à ne pas sortir des index d'un tableau
-// les tableaux ont une taille FIXE
-//string n = noms[42]; // erreur
+//// attention à ne pas sortir des index d'un tableau
+//// les tableaux ont une taille FIXE
+////string n = noms[42]; // erreur
 
-// inverser les valeurs du tableau
-noms = noms.Reverse().ToArray();
-Console.WriteLine(string.Join(",", noms));
+//// inverser les valeurs du tableau
+//noms = noms.Reverse().ToArray();
+//Console.WriteLine(string.Join(",", noms));
 
-// copier l'adresse mémoire du tableau
-string[] t = noms;
-t[0] = "Caroline";
-Console.WriteLine(noms[0]); // Caroline
+//// copier l'adresse mémoire du tableau
+//string[] t = noms;
+//t[0] = "Caroline";
+//Console.WriteLine(noms[0]); // Caroline
 
-// copie des valeurs du tableau
-// string[] t2 = noms.ToArray();
-string[] t2 = [.. noms]; 
-t2[0] = "John";
-Console.WriteLine(noms[0]); //Caroline
+//// copie des valeurs du tableau
+//// string[] t2 = noms.ToArray();
+//string[] t2 = [.. noms]; 
+//t2[0] = "John";
+//Console.WriteLine(noms[0]); //Caroline
 
-string[] t3 = ["Ringo", .. noms, "Steve"]; // ["Ringo", "Caroline", "Mike", "Khun", "Steve"]
+//string[] t3 = ["Ringo", .. noms, "Steve"]; // ["Ringo", "Caroline", "Mike", "Khun", "Steve"]
 
 
-//Any() : mieux d'utiliser Length pour des questions de performances
-int[] ints = new int[0];
-//if(!ints.Any()) 
-if(ints.Length == 0)
+////Any() : mieux d'utiliser Length pour des questions de performances
+//int[] ints = new int[0];
+////if(!ints.Any()) 
+//if(ints.Length == 0)
+//{
+//    Console.WriteLine("Le tableau est vide");
+//}
+
+
+//// multidimension
+
+//// tableau de tableaux ou orthogonaux
+//int[][] tableauDeTableaux = new int[5][];
+//tableauDeTableaux[0] = [1, 2, 3];
+//tableauDeTableaux[1] = [5, 2, 42];
+
+//// les tailles des tableaux internes peuvent être différentes
+//tableauDeTableaux[2] = [5, 2, 44, 33, 66];
+//Console.WriteLine();
+
+
+//// tableau matriciel : chaque dimension contient le même nb d'éléments
+//// les dimensions sont séparées par une virgule
+//int[,] matrice = new int[4, 6];
+//matrice[0, 5] = 42;
+
+//int[,,,,] matrice5Dimensions = new int[4, 5, 3, 2, 6];
+//Console.WriteLine();
+
+//object[] objects = [1, "", 555F, true];
+//object[][] tabtab = new object[5][];
+//tabtab[0] = [1,2,3];
+//tabtab[2] = ["", "", ""];
+
+#endregion
+
+
+#region Collections - ArrayList & List
+// ArrayList - Besoin d'ajouter using System.Collections;
+//on peut mettre ce que l'on veut
+
+ArrayList list = new();
+
+list.Add(42);
+list.Add(39);
+
+foreach(var item in list)
 {
-    Console.WriteLine("Le tableau est vide");
+    Console.WriteLine(item);
+}
+
+Console.WriteLine(list.Count);
+
+list.Add("Coucou");
+
+foreach (var item in list)
+{
+    Console.WriteLine(item);
+}
+
+//List : typé
+
+List<int> numbers = new();
+numbers.Add(42);
+//ints.Add("Hello"); --> error
+
+numbers.Add(4.13);
+numbers.Add(42);
+
+
+
+// numbers.Remove(42); //retire la 1ère occurence trouvée --> [4.13, 42]
+// numbers.RemoveAt(2);
+// numbers.RemoveAll(x => x == 42);
+
+numbers.AddRange([12, 66, 55]); // [4.13, 42, 12, 66, 55]
+
+// vider une liste
+numbers.Clear();
+
+
+Console.WriteLine("--------");
+foreach (var item in numbers)
+{
+    Console.WriteLine(item);
 }
 
 
-// multidimension
-
-// tableau de tableaux ou orthogonaux
-int[][] tableauDeTableaux = new int[5][];
-tableauDeTableaux[0] = [1, 2, 3];
-tableauDeTableaux[1] = [5, 2, 42];
-
-// les tailles des tableaux internes peuvent être différentes
-tableauDeTableaux[2] = [5, 2, 44, 33, 66];
-Console.WriteLine();
+#endregion
 
 
-// tableau matriciel : chaque dimension contient le même nb d'éléments
-// les dimensions sont séparées par une virgule
-int[,] matrice = new int[4, 6];
-matrice[0, 5] = 42;
+#region Collections - Hashtable - A éviter car manque de typage cohérent
 
-int[,,,,] matrice5Dimensions = new int[4, 5, 3, 2, 6];
-Console.WriteLine();
+Hashtable hashtable = new();
 
-object[] objects = [1, "", 555F, true];
-object[][] tabtab = new object[5][];
-tabtab[0] = [1,2,3];
-tabtab[2] = ["", "", ""];
+// on détermine nous-mêmes les indices au départ (pas auto-incrémentés) --> key/value pair
+hashtable.Add("one", "Maison");
+hashtable.Add("two", "Appartement");
+hashtable.Add("three", "Chateau");
+
+// comme on définit nous-mêmes, cela peut amener à des inconvénients : 
+hashtable.Add(false, true);
+hashtable.Add("test", "khun");
+hashtable.Add("machin", "mike");
+
+foreach(var item in hashtable)
+{
+    Console.WriteLine(item.GetType());
+    Console.WriteLine(((DictionaryEntry)item).Value);
+}
+
+#endregion
+
+
+#region Collections - Dictionary<Tk, Tv>
+
+Dictionary<string, string> dico = new();
+dico.Add("test", "khun");
+dico.Add("machin", "mike");
+
+
+foreach(var item in dico.Values)
+{
+    Console.WriteLine(item);
+}
+foreach (var item in dico.Keys)
+{
+    Console.WriteLine("clé: ");
+    Console.WriteLine(item);
+    Console.WriteLine("valeur: ");
+    Console.WriteLine(dico[item]);
+}
+
+foreach (KeyValuePair<string, string> item in dico)
+{
+    Console.WriteLine("clé: ");
+    Console.WriteLine(item.Key);
+    Console.WriteLine("valeur: ");
+    Console.WriteLine(item.Value);
+}
+
+
+
+
+#endregion
+
+#region Collections  - Queue  - FIFO (// file d'attente)
+
+#endregion
+
+#region Collections  - Stack  - LIFO (// pile d'assiettes)
+
+#endregion
+
+#region Collections  - Objet anonyme
+Dictionary<string, int> trad = new(); //dictionary = similaire à objet anonyme
+trad.Add("One", 1);
+trad.Add("Two", 2);
+
+var trad2 = new { One = 1, Two = 2 };
+Console.WriteLine(trad["One"]);
+Console.WriteLine(trad2.One);
+
+#endregion
+
+#region Collections  - Objet dynamique
+dynamic d = new ExpandoObject();
+d.One = 1;
+d.Two = 2;
+d.Three = 3;
+
+Console.WriteLine(d.One);
 
 #endregion
