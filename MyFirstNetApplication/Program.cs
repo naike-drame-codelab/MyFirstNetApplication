@@ -871,6 +871,25 @@ void UpdateValueWithRef2(out int v2)
 UpdateValueWithRef2(out v);
 Console.WriteLine(v); // 45
 
+// on peut retourner plusieurs valeurs // un tuple
+(int, bool, string, char) Test55555()
+{
+    return (42, true, "", '\n');
+}
+
+(int nb, bool flag, string s, char c) = Test55555();
+(int, bool i, string, char) tuple = Test55555();
+Console.WriteLine(nb);
+Console.WriteLine(tuple.Item1); // 42
+Console.WriteLine(tuple.i); // true
+
+// ancienne syntaxe :
+Tuple<int, bool> t = new Tuple<int, bool>(42, true);
+int bbb = t.Item1;
+bool fff = t.Item2;
+
+
+
 
 // Surcharge de méthode : un seul nom de méthode, mais en fonction du param appelé, la bonne méthode sera appelée
 /*
