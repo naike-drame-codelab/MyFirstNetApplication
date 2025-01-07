@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "D:\\Visual Studio 2022\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Stagiaire\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice1_Dates\\Exercice1_Dates.csproj",
+      "projectUniqueName": "C:\\Users\\Stagiaire\\Documents\\repos\\formation-dotnet\\MyFirstNetApplication\\Exercice1_Dates\\Exercice1_Dates.csproj",
       "projectName": "Exercice1_Dates",
-      "projectPath": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice1_Dates\\Exercice1_Dates.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice1_Dates\\obj\\",
+      "projectPath": "C:\\Users\\Stagiaire\\Documents\\repos\\formation-dotnet\\MyFirstNetApplication\\Exercice1_Dates\\Exercice1_Dates.csproj",
+      "packagesPath": "C:\\Users\\Stagiaire\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stagiaire\\Documents\\repos\\formation-dotnet\\MyFirstNetApplication\\Exercice1_Dates\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Visual Studio 2022\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Stagiaire\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

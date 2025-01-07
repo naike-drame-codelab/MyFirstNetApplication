@@ -533,51 +533,51 @@ Console.WriteLine("Bienvenue " + input + " ! ♥");
 // ArrayList - Besoin d'ajouter using System.Collections;
 //on peut mettre ce que l'on veut
 
-ArrayList list = new();
+//ArrayList list = new();
 
-list.Add(42);
-list.Add(39);
+//list.Add(42);
+//list.Add(39);
 
-foreach(var item in list)
-{
-    Console.WriteLine(item);
-}
+//foreach(var item in list)
+//{
+//    Console.WriteLine(item);
+//}
 
-Console.WriteLine(list.Count);
+//Console.WriteLine(list.Count);
 
-list.Add("Coucou");
+//list.Add("Coucou");
 
-foreach (var item in list)
-{
-    Console.WriteLine(item);
-}
+//foreach (var item in list)
+//{
+//    Console.WriteLine(item);
+//}
 
-//List : typé
+////List : typé
 
-List<int> numbers = new();
-numbers.Add(42);
-//ints.Add("Hello"); --> error
+//List<int> numbers = new();
+//numbers.Add(42);
+////ints.Add("Hello"); --> error
 
-numbers.Add(4.13);
-numbers.Add(42);
-
-
-
-// numbers.Remove(42); //retire la 1ère occurence trouvée --> [4.13, 42]
-// numbers.RemoveAt(2);
-// numbers.RemoveAll(x => x == 42);
-
-numbers.AddRange([12, 66, 55]); // [4.13, 42, 12, 66, 55]
-
-// vider une liste
-numbers.Clear();
+//numbers.Add(4.13);
+//numbers.Add(42);
 
 
-Console.WriteLine("--------");
-foreach (var item in numbers)
-{
-    Console.WriteLine(item);
-}
+
+//// numbers.Remove(42); //retire la 1ère occurence trouvée --> [4.13, 42]
+//// numbers.RemoveAt(2);
+//// numbers.RemoveAll(x => x == 42);
+
+//numbers.AddRange([12, 66, 55]); // [4.13, 42, 12, 66, 55]
+
+//// vider une liste
+//numbers.Clear();
+
+
+//Console.WriteLine("--------");
+//foreach (var item in numbers)
+//{
+//    Console.WriteLine(item);
+//}
 
 
 #endregion
@@ -585,84 +585,163 @@ foreach (var item in numbers)
 
 #region Collections - Hashtable - A éviter car manque de typage cohérent
 
-Hashtable hashtable = new();
+//Hashtable hashtable = new();
 
-// on détermine nous-mêmes les indices au départ (pas auto-incrémentés) --> key/value pair
-hashtable.Add("one", "Maison");
-hashtable.Add("two", "Appartement");
-hashtable.Add("three", "Chateau");
+//// on détermine nous-mêmes les indices au départ (pas auto-incrémentés) --> key/value pair
+//hashtable.Add("one", "Maison");
+//hashtable.Add("two", "Appartement");
+//hashtable.Add("three", "Chateau");
 
-// comme on définit nous-mêmes, cela peut amener à des inconvénients : 
-hashtable.Add(false, true);
-hashtable.Add("test", "khun");
-hashtable.Add("machin", "mike");
+//// comme on définit nous-mêmes, cela peut amener à des inconvénients : 
+//hashtable.Add(false, true);
+//hashtable.Add("test", "khun");
+//hashtable.Add("machin", "mike");
 
-foreach(var item in hashtable)
-{
-    Console.WriteLine(item.GetType());
-    Console.WriteLine(((DictionaryEntry)item).Value);
-}
+//foreach(var item in hashtable)
+//{
+//    Console.WriteLine(item.GetType());
+//    Console.WriteLine(((DictionaryEntry)item).Value);
+//}
 
 #endregion
 
 
 #region Collections - Dictionary<Tk, Tv>
 
-Dictionary<string, string> dico = new();
-dico.Add("test", "khun");
-dico.Add("machin", "mike");
+//Dictionary<string, string> dico = new();
+//dico.Add("test", "khun");
+//dico.Add("machin", "mike");
 
 
-foreach(var item in dico.Values)
-{
-    Console.WriteLine(item);
-}
-foreach (var item in dico.Keys)
-{
-    Console.WriteLine("clé: ");
-    Console.WriteLine(item);
-    Console.WriteLine("valeur: ");
-    Console.WriteLine(dico[item]);
-}
+//foreach(var item in dico.Values)
+//{
+//    Console.WriteLine(item);
+//}
+//foreach (var item in dico.Keys)
+//{
+//    Console.WriteLine("clé: ");
+//    Console.WriteLine(item);
+//    Console.WriteLine("valeur: ");
+//    Console.WriteLine(dico[item]);
+//}
 
-foreach (KeyValuePair<string, string> item in dico)
-{
-    Console.WriteLine("clé: ");
-    Console.WriteLine(item.Key);
-    Console.WriteLine("valeur: ");
-    Console.WriteLine(item.Value);
-}
+//foreach (KeyValuePair<string, string> item in dico)
+//{
+//    Console.WriteLine("clé: ");
+//    Console.WriteLine(item.Key);
+//    Console.WriteLine("valeur: ");
+//    Console.WriteLine(item.Value);
+//}
 
 
 
 
 #endregion
+
 
 #region Collections  - Queue  - FIFO (// file d'attente)
 
 #endregion
 
+
 #region Collections  - Stack  - LIFO (// pile d'assiettes)
 
 #endregion
 
-#region Collections  - Objet anonyme
-Dictionary<string, int> trad = new(); //dictionary = similaire à objet anonyme
-trad.Add("One", 1);
-trad.Add("Two", 2);
 
-var trad2 = new { One = 1, Two = 2 };
-Console.WriteLine(trad["One"]);
-Console.WriteLine(trad2.One);
+#region Collections  - Objet anonyme
+//Dictionary<string, int> trad = new(); //dictionary = similaire à objet anonyme
+//trad.Add("One", 1);
+//trad.Add("Two", 2);
+
+//var trad2 = new { One = 1, Two = 2 };
+//Console.WriteLine(trad["One"]);
+//Console.WriteLine(trad2.One);
 
 #endregion
 
 #region Collections  - Objet dynamique
-dynamic d = new ExpandoObject();
-d.One = 1;
-d.Two = 2;
-d.Three = 3;
+//dynamic d = new ExpandoObject();
+//d.One = 1;
+//d.Two = 2;
+//d.Three = 3;
 
-Console.WriteLine(d.One);
+//Console.WriteLine(d.One);
+
+#endregion
+
+
+#region Structures
+//-------------- Grosse différence entre struct & une class & un record: ----------------
+// struct =  de type valeur ---> n'est pas un élément null
+// class =  de type référence ---> peut être nullable
+// record = constante, on ne peut plus modifier les infos venant de l'extérieur = info de base fixe (// ajouter readonly)
+
+
+PersonStruct p = new PersonStruct();
+p.age = 42;
+p.fname = "Khun";
+p.name = "Ly";
+
+PersonStruct p2 = p;
+Console.WriteLine(p2.age); // 42
+
+PersonStruct.Test t = new();
+
+
+PersonClass p = new();
+p.age = 42;
+p.fname = "Khun";
+p.name = "Ly";
+PersonClass p2 = p;
+p2.age = 43;
+Console.WriteLine(p.age); // 43
+
+PersonClass p3 = new();
+p3.age = 42;
+p3.fname = "Mike";
+p3.name = "Person";
+
+
+PersonRecord record1 = new PersonRecord("Ly", "Khun", 42);
+// record1.name = "test"; // error : on ne peut pas modifier
+Console.WriteLine(record.age);
+
+
+// Création d'un struct = création d'un type
+// on peut créer des struct imbriquées (slide 167) 
+struct PersonStruct
+{
+    // !!! on ne peut pas définir de valeur par défaut sauf si déclarée avec const ou static
+    public string name; // ""
+    public string fname; // ""
+    public int age; //0
+    const int test = 42;
+
+    //peut avoir des méthodes
+    public void Speak() { }
+
+    //peut avoir des struct internes
+    public struct Test
+    {
+
+    }
+
+
+}
+
+
+class PersonClass
+{
+    public string name;
+    public string fname;
+    public int age;
+}
+
+record PersonRecord(string name, string fname, int age)
+{
+    public void Speak() { }
+}
+
 
 #endregion

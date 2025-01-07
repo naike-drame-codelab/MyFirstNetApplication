@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice3_RegistreNational\\Exercice3_RegistreNational.csproj": {}
+    "C:\\Users\\Stagiaire\\Documents\\repos\\formation-dotnet\\MyFirstNetApplication\\Exercice3_RegistreNational\\Exercice3_RegistreNational.csproj": {}
   },
   "projects": {
-    "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice3_RegistreNational\\Exercice3_RegistreNational.csproj": {
+    "C:\\Users\\Stagiaire\\Documents\\repos\\formation-dotnet\\MyFirstNetApplication\\Exercice3_RegistreNational\\Exercice3_RegistreNational.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice3_RegistreNational\\Exercice3_RegistreNational.csproj",
+        "projectUniqueName": "C:\\Users\\Stagiaire\\Documents\\repos\\formation-dotnet\\MyFirstNetApplication\\Exercice3_RegistreNational\\Exercice3_RegistreNational.csproj",
         "projectName": "Exercice3_RegistreNational",
-        "projectPath": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice3_RegistreNational\\Exercice3_RegistreNational.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\DotNet2025\\MyFirstNetApplication\\Exercice3_RegistreNational\\obj\\",
+        "projectPath": "C:\\Users\\Stagiaire\\Documents\\repos\\formation-dotnet\\MyFirstNetApplication\\Exercice3_RegistreNational\\Exercice3_RegistreNational.csproj",
+        "packagesPath": "C:\\Users\\Stagiaire\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stagiaire\\Documents\\repos\\formation-dotnet\\MyFirstNetApplication\\Exercice3_RegistreNational\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Visual Studio 2022\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Stagiaire\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
